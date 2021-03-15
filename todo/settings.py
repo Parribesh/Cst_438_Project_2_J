@@ -22,10 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '24@3+r*u2zqqz=cn8p6wsu+fq(7wl$&*kcl76guu^^z_bsjbpm'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURI WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['todo-app-cst438.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['todo-app-cst438.herokuapp.com','0.0.0.0' ]
 
 
 # Application definition
